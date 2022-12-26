@@ -89,7 +89,6 @@ def verify(a, rec_mail):
         text = message.as_string()
         session.sendmail(sender, receiver, text)
         session.quit()
-       # print('Secured notes Sent to your mail')
 
         rt2.mainloop()
 
